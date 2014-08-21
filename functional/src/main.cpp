@@ -15,10 +15,15 @@
 using namespace std;
 
 //工具函数
-string itos(int i){
+string itos(double i){
     ostringstream ss;
     ss << i;
     return ss.str();
+    
+    //int sprintf( char *buffer, const char *format [, argument] ... );
+    //char buffer[256];
+    //sprintf(buffer,"%f",i);
+    //return buffer;
 }
 
 
